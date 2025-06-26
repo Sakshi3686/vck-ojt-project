@@ -5,6 +5,8 @@ import ContactPage from "./pages/ContactPage";
 import CoursePage from "./pages/CoursesPage";
 import './styles/Pages.css';
 import AdmissionPage from "./pages/AdmissionPage";
+import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return(
@@ -18,6 +20,8 @@ const App = () => {
           <Route path="/course" element={<CoursePage/>}/>
           <Route path="/admission" element={<AdmissionPage/>}/>
         </Routes>
+        <ChatbotComponent/>
+        <Footer/>
       </Router>
     </div>
   )

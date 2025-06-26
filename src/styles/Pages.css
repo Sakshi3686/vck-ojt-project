@@ -1,36 +1,161 @@
+/*page responsiveness*/
+
+#myid2 {
+  text-align: center;
+  margin-top:15px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: blue;
+}
+#mylist{
+  margin-bottom: 8px;
+  color:black;
+  text-align: left;
+  padding-left: 20px;
+  list-style-position: disc;
+  margin-top: 8px;
+}
+#myid3 {
+ /* margin-top:30%;*/
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+#myid4 {
+  text-align: center;
+}
+#h2 {
+  margin-top: 30px;
+} 
+#table {
+  margin-top: 15px;
+  border-collapse:collapse;
+  border-color: inherit;
+  border-spacing: 2px;
+  text-align: center;
+}
+ #content{
+  color:white;
+ }
+
+
+ 
+ 
  *{
   margin:0;
   padding:0;
   box-sizing: border-box;
 }
 /*homepage*/
-.image {
+.section {
+  position: relative;
   width: 100%;
-  height:400px;
-  background: rgba(0,0,0,0.5);
-  z-index:1;
-  filter:brightness(60%)
-  /*filter: contrast(100%);
-  opacity:0.7;*/
+  height: 350px;
+  overflow:hidden ;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+.hero-banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  /* Cover the area, cropping if necessary */
+  filter: brightness(60%);
+  /* Darken image for text readability */
 }
 .content {
-  position:absolute;
-  top: 40%;
+  position: absolute;
+  top: 50%;
   left: 50%;
-  z-index:1;
-  color:white;
-  transform: translate(-40%, -40%);
-  color:rgb(247, 246, 246);
+  transform: translate(-50%, -50%);
+  color: white;
   text-align: center;
-  padding: 0px ;
-  /*border-radius: 10px;*/
-  font-weight:bolder;
-  margin: 0%;
-  background-position: center;
-  padding-top: 10%;
+  width: 90%;
+  
 }
+.content h1 {
+    color: white;
+  /* Override blue from .page-container h1 */
+  font-size: 3.5em;
+  /* Larger heading for banner */
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Add shadow for readability */
+
+}
+.content p {
+  color: white;
+  font-size: 1.3em;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.content button {
+  background-color: #28A745;
+  /* Green button for Apply Now */
+  font-size: 1.2em;
+  padding: 15px 30px;
+}
+.admissions-table {
+  width: 200%;
+  border-collapse: collapse;
+  /* Collapse borders between cells */
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #F8F9FA;
+  /* Light background for table */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  /* Subtle shadow */
+}
+table {
+  display:table;
+  box-sizing: border-box;
+  text-indent:initial;
+  unicode-bidi: isolate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+.admissions-table td {
+  border: 1px solid #DEE2E6;
+  /* Light grey borders */
+  padding: 12px;
+  text-align: left;
+  font-size: 0.95em;
+}
+
+.admissions-table th {
+  background-color: #E9ECEF;
+  /* Slightly darker background for headers */
+  font-weight: bold;
+  color: #343A40;
+  padding: 10px;
+}
+
+.admissions-table tbody tr:nth-child(even) {
+  background-color: #F2F2F2;
+  /* Zebra striping for rows */
+}
+
+.admissions-table tbody tr:hover {
+  background-color: #E2F0FF;
+  /* Highlight row on hover */
+}
+.main ol{
+  margin-left: 25px;
+  margin-bottom: 20px;
+  list-style-type: decimal;
+  color: #555;
+
+}
+.main ol li{
+  margin-bottom: 10px;
+  line-height: 1.6;
+
+}
+
+
+
+
 button {
-  background-color: rgb(2, 239, 2);
+  background-color: #28A745;
   margin:10px
 }
 #para1 {
@@ -55,7 +180,7 @@ button {
 
 .image1 img {
   height: 200px;
-  width: 700px;
+  width: 800px;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -90,7 +215,7 @@ button {
 }
 .page {
   background-color: rgb(22, 217, 228);
-  padding: 20px;
+  /*padding: 20px;*/
 }
 .college {
   font-size: 24px;
@@ -114,6 +239,7 @@ button {
 }
 #myid2 {
   color:blue;
+  text-align: center;
 }
 #myid6 {
   color:rgb(71, 69, 202);
@@ -143,52 +269,22 @@ button {
 }
 .h2 {
   margin: 10px;
-}
+}*/
 .ol {
   margin:30px;
 }
-/*.div1 {
-  width:500px;
-  height:220px;
-  background-color: aqua;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  padding: 16px;
-  overflow-y: auto;
-}
-.div1 {
-  margin:10px 0;
-}*/
-/* styles.css or your component CSS */
-/*.div1 {
-  width: 90%;
-  max-width: 900px;
-  height: 300px;
-  background-color: #1e1e1e; 
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-  padding: 20px;
-  color: white;
-  overflow-y: auto; /* Scroll if content is too much 
-  margin: 20px auto;
+.video-caption {
   text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
-
-.div1 h1 {
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.div button {
-  margin-top: 12px;
-  background-color: limegreen;
-  border: none;
-  padding: 10px 20px;
+.video-container{
+  background-color:white;
   border-radius: 8px;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-}*/
+  overflow: hidden;
+}
 .main {
   background-color: aqua;
   flex-grow:1;
@@ -200,7 +296,26 @@ button {
   padding-right: 130px;
 }
 .main1 {
-  overflow: auto;
+  overflow:auto;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px auto;
+}
+.main3 {
+  background-color: aqua;
+  flex-grow:1;
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 25px;
+  padding-left: 320px;
+  padding-right: 320px;
+}
+.main4 {
+  overflow:auto;
   width: 100%;
   height: 100%;
   background-color: #fff;
@@ -210,4 +325,82 @@ button {
 }
 .text {
   text-align: center;
+}
+
+/* --- Basic Responsive Styles --- */
+@media (max-width: 768px) {
+  .main {
+    margin: 15px auto;
+    /* Slightly less margin on smaller screens */
+    padding: 15px;
+    /* Slightly less padding */
+  }
+
+  /* Home Page - Hero Section */
+  .section {
+    height: 250px;
+    /* Shorter banner on smaller screens */
+  }
+
+  .content h1 {
+    font-size: 2.2em;
+    /* Smaller heading */
+  }
+
+  .content p {
+    font-size: 1em;
+    /* Smaller paragraph */
+  }
+
+  .content button {
+    padding: 10px 20px;
+    /* Smaller button */
+    font-size: 1em;
+  }
+
+  /* Image Gallery */
+  .image1 {
+    grid-template-columns: 1fr;
+    /* Stack images in a single column */
+  }
+
+  .image1 {
+    height: 180px;
+    /* Adjust height for stacked images */
+  }
+
+  /* Admissions Table */
+  /* .admissions-table, .course-details-table {
+    display: block; /* Make table block level */
+  /* overflow-x: auto; Enable horizontal scroll for table on small screens */
+  /* white-space: nowrap; Prevent content from wrapping inside cells */
+  /* -webkit-overflow-scrolling: touch; For smooth scrolling on iOS */
+  /* } */
+  */ .admissions-table thead,
+  .admissions-table tbody,
+  .admissions-table th,
+  .admissions-table td,
+  .admissions-table tr {
+    display: block;
+    /* Make table elements stack */
+    width: auto;
+    /* Allow natural width */
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  /* Further adjustments for very small screens (phones) */
+  .main {
+    padding: 10px;
+  }
+
+  .content h1 {
+    font-size: 1.8em;
+  }
+
+  .content p {
+    font-size: 0.9em;
+  }
 }
