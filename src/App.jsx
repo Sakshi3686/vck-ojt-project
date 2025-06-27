@@ -1,10 +1,10 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import HomePage from "./Pages/HomePage";
-import AboutPage from "./Pages/AboutPage";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import CoursePage from "./pages/CoursesPage";
 import './styles/Pages.css';
-import AdmissionPage from "./Pages/AdmissionPage";
+import AdmissionPage from "./pages/AdmissionPage";
 import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
 import Footer from "./components/Footer/Footer";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
