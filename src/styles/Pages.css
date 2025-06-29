@@ -1,394 +1,61 @@
-
-
-/*#myid2 {
-  text-align: center;
-  margin-top:15px;
-  margin-bottom: 30px;
-  font-size: 30px;
-  color: blue;
-}
-#mylist{
-  margin-bottom: 8px;
-  color:black;
-  text-align: left;
-  padding-left: 20px;
-  list-style-position: disc;
-  margin-top: 8px;
-}
-#myid3 {
- /* margin-top:30%;*/
- /* font-size: 15px;
-  margin-bottom: 40px;
-}
-#myid4 {
-  text-align: center;
-}
-#h2 {
-  margin-top: 30px;
-} 
-#table {
-  margin-top: 15px;
-  border-collapse:collapse;
-  border-color: inherit;
-  border-spacing: 2px;
-  text-align: center;
-}
- #content{
-  color:white;
- }
-
-
- 
- 
- *{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-}
-/*homepage*/
-/*.section {
-  position: relative;
-  width: 100%;
-  height: 350px;
-  overflow:hidden ;
-  margin-bottom: 40px;
-  border-radius: 8px;
-}
-.hero-banner-image {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-  /* Cover the area, cropping if necessary */
- /* filter: brightness(60%);
-  /* Darken image for text readability */
-/*}
-.content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
-  width: 90%;
-  
-}
-.content h1 {
-    color: white;
-  /* Override blue from .page-container h1 */
- /* font-size: 3.5em;
-  /* Larger heading for banner */
- /* margin-bottom: 15px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  /* Add shadow for readability */
-
-/*}
-.content p {
-  color: white;
-  font-size: 1.3em;
-  margin-bottom: 25px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-.content button {
-  background-color: #28A745;
-  /* Green button for Apply Now */
-  /*font-size: 1.2em;
-  padding: 15px 30px;
-}
-.admissions-table {
-  width: 200%;
-  border-collapse: collapse;
-  /* Collapse borders between cells */
- /* margin-top: 20px;
-  margin-bottom: 30px;
-  background-color: #F8F9FA;
-  /* Light background for table */
-  /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  /* Subtle shadow */
-/*}
-table {
-  display:table;
-  box-sizing: border-box;
-  text-indent:initial;
-  unicode-bidi: isolate;
-  border-spacing: 2px;
-  border-color: gray;
-}
-.admissions-table td {
-  border: 1px solid #DEE2E6;
-  /* Light grey borders */
- /* padding: 12px;
-  text-align: left;
-  font-size: 0.95em;
-}
-
-.admissions-table th {
-  background-color: #E9ECEF;
-  /* Slightly darker background for headers */
- /* font-weight: bold;
-  color: #343A40;
-  padding: 10px;
-}
-
-.admissions-table tbody tr:nth-child(even) {
-  background-color: #F2F2F2;
-  /* Zebra striping for rows */
-/*}
-
-.admissions-table tbody tr:hover {
-  background-color: #E2F0FF;
-  /* Highlight row on hover */
-/*}
-.main ol{
-  margin-left: 25px;
-  margin-bottom: 20px;
-  list-style-type: decimal;
-  color: #555;
-
-}
-.main ol li{
-  margin-bottom: 10px;
-  line-height: 1.6;
-
-}
-
-
-
-
-button {
-  background-color: #28A745;
-  margin:10px
-}
-#para1 {
-  margin: 0px;
-}
-#para2 {
-  margin: 0px;
-}
-#id1 {
-  margin: 0px;
-}
-#id2 {
-  margin:30px;
-}
-.image1 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.image1 img {
-  height: 200px;
-  width: 800px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  
-}
-
-.image1 img:hover{
-   transform: scale(1.03);
-}
-
-#id3 {
-  text-align: center;
-  margin:10px;
-}
-#id4 {
-  display:block;
-  margin:auto;
-}
-.navbar{
-    background-color:rgb(19, 178, 246);
-    padding: 15px 40px;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    color:white;
-    flex-wrap: wrap;
-    width:100%;
-    box-sizing: border-box;
-
-
-}
-.page {
-  background-color: rgb(22, 217, 228);
-  /*padding: 20px;*/
-/*
-}
-.college {
-  font-size: 24px;
-  margin:0;
-  color:white;
-}
-
-.nav-links {
-    align-items: center;
-    display: flex;
-    gap: 20px;
-    color:rgb(241, 236, 236);
-    background-color:rgb(19, 178, 246);;
-  
-}
-.nav-links a{
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-  background-color:rgb(19, 178, 246);;
-}
-#myid2 {
-  color:blue;
-  text-align: center;
-}
-#myid6 {
-  color:rgb(71, 69, 202);
-  text-align:center;
-}
-
-/*coursepage*/
-/*#myid {
-  color: blue;
-  text-align: center;
-  margin-bottom: 20px;
-}
-#para {
-  text-align: center;
-}
-#button3 {
-  background-color:green;
-  display:block;
-  margin:auto;
-}
-
-/*admissionpage*/
-/*.h1 {
-  text-align: center;
-  color: blue;
-  margin:10px;
-}
-.h2 {
-  margin: 10px;
-}*/
-/*.ol {
-  margin:30px;
-}
-.video-caption {
-  text-align: center;
-  padding: 10px;
-  background-color: #f0f0f0;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
-.video-container{
-  background-color:white;
-  border-radius: 8px;
-  overflow: hidden;
-}
-.main {
-  background-color: aqua;
-  flex-grow:1;
-  display:flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-top: 25px;
-  padding-left: 130px;
-  padding-right: 130px;
-}
-.main1 {
-  overflow:auto;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 20px;
-  margin: 15px auto;
-}
-.main3 {
-  background-color: aqua;
-  flex-grow:1;
-  display:flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-top: 25px;
-  padding-left: 320px;
-  padding-right: 320px;
-}
-.main4 {
-  overflow:auto;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 20px;
-  margin: 15px auto;
-}
-.text {
-  text-align: center;
-}
-
-/* --- Basic Responsive Styles --- */
-/*@media (max-width: 768px) {
-  .main {
-    margin: 15px auto;
-    /* Slightly less margin on smaller screens */
-    /*padding: 15px;
-    /* Slightly less padding */
-  /*}
-
-  /* Home Page - Hero Section */
-  /*.section {
-    height: 250px;
-    /* Shorter banner on smaller screens */
-  /*}
-
-  .content h1 {
-    font-size: 2.2em;
-    /* Smaller heading */
-  /*}
-
-  .content p {
-    font-size: 1em;
-    /* Smaller paragraph */
-  /*}
-
-  .content button {
-    padding: 10px 20px;
-    /* Smaller button */
-    /*font-size: 1em;
-  }
-
-  /* Image Gallery */
-  /*.image1 {
-    grid-template-columns: 1fr;
-    /* Stack images in a single column */
-  /*}
-
-  .image1 {
-    height: 180px;
-    /* Adjust height for stacked images */
-  /*}
-
 /* src/pages/pages.css  */
 .page-container {
-  max-width: 1500px;
-  padding-left: 380px;
-  padding-right: 380px;
+  max-width: 100%;
   /* Max width for content to prevent it from stretching too wide */
-  height: 500px;
-  margin: 20px auto;
+  height:500px;
+  margin: 100px 100px;
   /* Center the content with some top/bottom margin */
-  padding: 50px;
-  background-color: #FFFFFF;
+  padding: 20px;
+  background-color: white;
   /* White background for page content */
   border-radius: 8px;
   /* Slightly rounded corners */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   /* Subtle shadow */
-  justify-content: center;
+}
+.contact-container {
+    max-width: 100%;
+  /* Max width for content to prevent it from stretching too wide */
+  height:500px;
+  margin: 50px 50px;
+  /* Center the content with some top/bottom margin */
+ /* padding: 20px;*/
+  background-color: white;
+  /* White background for page content */
+  border-radius: 8px;
+  /* Slightly rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding-left: 260px;
+  padding-right: 260px;
+}
+.contact-container h1 {
+  color: #007BFF;
+  /* Primary blue for headings */
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2.5em;
 }
 
+.contact-container h2 {
+  color: #343A40;
+  /* Darker grey for subheadings */
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+  border-bottom: 1px solid #eee;
+  /* Light line under subheadings */
+  padding-bottom: 10px;
+}
+
+.contact-container p {
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.container {
+  background-color: #52d2d2;
+}
 .page-container h1 {
   color: #007BFF;
   /* Primary blue for headings */
@@ -406,7 +73,6 @@ button {
   border-bottom: 1px solid #eee;
   /* Light line under subheadings */
   padding-bottom: 10px;
-  text-align: left;
 }
 
 .page-container p {
@@ -420,10 +86,6 @@ button {
   margin-left: 20px;
   margin-bottom: 15px;
   color: #555;
-}
-body {
-  background-color:#52d2d2;
-  text-align: center;
 }
 
 .page-container li {
@@ -439,7 +101,7 @@ body {
   display: inline-block;
   background-color: #28A745;
   /* Green button */
-  color: white;
+  color: rgb(248, 240, 240);
   padding: 12px 25px;
   border-radius: 5px;
   text-decoration: none;
@@ -505,6 +167,7 @@ body {
   background-color: #28A745;
   /* Green button for Apply Now */
   font-size: 1.2em;
+  color: white;
   padding: 15px 30px;
 }
 
@@ -618,10 +281,6 @@ body {
 }
 
 /* Adjustments for the new course details table  */
-/*.course-details-table {*/
-  /* For example: */
-  /* font-size: 0.9em; */
-
 
 /* CSS Animation Definitions */
 /* Keyframes for Fade In Up animation */

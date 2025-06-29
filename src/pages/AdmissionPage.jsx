@@ -2,7 +2,7 @@ import Header from "../components/Header/Header"
 import { Link } from "react-router-dom";
 const AdmissionPage = () => {
     return(
-        <div>
+        <div className="container">
             <Header/>
             <div className="page-container" style={{overflow:"auto"}}>
             <h1 >Admissions at Vivekanand College</h1>

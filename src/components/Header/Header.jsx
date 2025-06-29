@@ -1,3 +1,22 @@
+/*import { Link } from "react-router-dom";
+import "./Header.css";
+const Header = () => {
+  return (
+    <div>
+      <div className="navbar">
+        <p>Vivekanand College</p>
+        <Link to="/home">Home</Link>
+        <Link to="/about" >About</Link>
+        <Link to="/course"> Courses</Link>
+        <Link to="/contact" >Contact</Link>
+        <Link to="/admission" ><button>Apply Now!</button></Link>
+      
+      </div>
+    </div>
+  );
+}
+export default Header;*/
+// / src/components/Header/Header.jsx
 import React, { useState } from "react"; // Import useState
 import { Link } from "react-router-dom";
 import "./Header.css";
@@ -32,7 +51,7 @@ function Header() {
         <Link to="/contact" className="nav-item">
           Contact
         </Link>
-        <Link to="/admission" className="nav-item btn primary-btn">
+        <Link to="/admissions" className="nav-item btn primary-btn">
           Apply Now!
         </Link>{" "}
         {/* Apply Now button */}
@@ -61,7 +80,7 @@ function Header() {
           Contact
         </Link>
         <Link
-          to="/admission"
+          to="/admissions"
           className="nav-item btn primary-btn"
           onClick={closeDrawer}
         >
@@ -76,3 +95,4 @@ function Header() {
   );
 }
 export default Header;
+

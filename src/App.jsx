@@ -36,7 +36,7 @@ const App = () => {
           <Route path="/about" element={<AboutPage/>}/>
           <Route path="/contact" element={<ContactPage/>}/>
           <Route path="/course" element={<CoursePage/>}/>
-          <Route path="/admission" element={<AdmissionPage/>}/>
+          <Route path="/admissions" element={<AdmissionPage/>}/>
         </Routes>
         <ChatbotComponent/>
         <Footer/>
